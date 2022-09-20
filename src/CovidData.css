@@ -1,0 +1,155 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./pexels-photo-1266808.jpeg);
+background-size: cover;
+    }
+    .covidData {
+   
+    
+    background-repeat: no-repeat;
+    background-position-x: center;
+            
+    
+    
+    
+    }
+   .search:hover{
+        background-color: blue;
+
+
+
+    }
+    .input:hover{
+       cursor: pointer;
+      background-position: 1px;
+      transition: all;
+      translate: 2px;
+    }
+    /* input stylings */
+    
+    .covidData__form {
+    padding: 10px;
+    margin: 20px;
+    }
+    .covidData__input input {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .covidData__input button {
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    
+    cursor: pointer;
+    }
+    
+    /* detail stylings */
+    
+    .covidData__country__info {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+      height: 500px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    text-shadow: 1px 1px 1px rgb(71, 67, 67);
+    box-shadow: 5px 5px 5px rgb(71, 67, 67);
+    grid-template-rows: auto;
+    
+    flex-direction: column;
+    }
+   @media only screen and (max-width:600px) {
+    body{
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .covidData{
+            
+display: block;
+align-content:center ;
+align-items: center;
+text-align: center;
+justify-content: center;
+grid-template-rows: auto;
+padding-right: auto;
+padding-top: auto;
+
+    }
+    .search{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      text-decoration: none;
+      margin-left: 200px;
+    }
+    .header{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      margin-left: 50px;
+        
+       
+        float: right;
+        border: 2px solid white ;
+    }
+    .input{
+        display: flex;
+        padding-left: 100px;
+    }
+   }
+   @media only screen and (max-width: 920px) {
+    body{
+   margin: 0;
+      padding: 0;
+      
+       
+    }
+     .header{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center
+        
+     }
+     
+    
+    .covidData {
+        
+        background-color: var(border-radius50px);
+        width: auto;
+        margin: auto;
+        margin-top: 0px;
+        border-radius: 6px;
+        padding-bottom: 10px;
+
+            }
+            .covidData__country__info{
+            display: flex;
+        align-items: center;
+         justify-content: center;
+           text-align: center;
+        flex-direction: column;
+               
+
+
+            }
+        }
